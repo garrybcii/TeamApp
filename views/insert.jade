@@ -1,0 +1,29 @@
+extends layout
+
+block content
+    h1 Insert Users
+    label
+        p Enter your first name.
+    input.fname(
+        type = 'text'
+        name = 'fistName'
+    )
+    label
+        p Enter your age.
+    input.age(
+        type = 'text'
+        name = 'age'
+    )
+    label
+        p Enter your favorite color.
+    input.fcolor(
+        type = 'text'
+        name = 'fColor'
+    )  
+    <br> 
+    <br>
+    <br> 
+    input.submitUser(
+        type = 'submit'
+        value = 'Submit'
+    )

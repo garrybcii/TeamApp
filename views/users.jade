@@ -1,0 +1,29 @@
+extends layout
+
+block content
+    h1 Find Users
+    label
+        p Enter first name.
+    input.fname(
+        type = 'text'
+        name = 'fistName'
+    )
+    label
+        p Enter age.
+    input.age(
+        type = 'text'
+        name = 'age'
+    )
+    label
+        p Enter favorite color.
+    input.fcolor(
+        type = 'text'
+        name = 'fColor'
+    )  
+    <br> 
+    <br>
+    <br> 
+    input.findUser(
+        type = 'submit'
+        value = 'Submit'
+    )
